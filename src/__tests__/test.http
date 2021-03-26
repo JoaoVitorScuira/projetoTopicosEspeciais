@@ -1,0 +1,14 @@
+###
+GET http://localhost:3000/
+
+###
+POST http://localhost:3000/ciclo/cadastrar
+Content-Type: application/json
+
+{
+        "nome" : "Joao",
+        "cpf" : "111.111.111-11",
+        "idade" : "31",
+        "rg" : "213331231",
+        "telefone": "telefone"
+}
